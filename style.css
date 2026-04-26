@@ -701,12 +701,83 @@ button {
    /* width: 150px; */
 }
 
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px 80px;
+    flex-wrap: wrap;
+}
+
+/* LEFT SIDE */
+.footer-left{
+    max-width: 700px;
+}
+
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.footer-desc{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+}
+
+.read-more{
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* RIGHT SIDE */
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+/* DROPDOWN */
+.footer-dropdowns{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-dropdowns select{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ICONS */
+.footer-icons{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer-icons i:hover{
+    transform: scale(1.2);
+}
 
 
-
-
-/* RESPONSIVE */
-/* ================= MOBILE VIEW ================= */
 @media screen and (max-width: 768px) {
 
   /* HEADER */
